@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#dca9ae">
+  <title>Для тебя ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Serif+Display:ital@0;1&family=Montserrat:wght@400;500;600&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="site">
+
+    <section class="screen hero" id="hero">
+      <div class="sparkles" aria-hidden="true"></div>
+      <div class="petals" aria-hidden="true"></div>
+
+      <div class="hero-content">
+        <p class="eyebrow">для одного очень особенного человека</p>
+        <h1 class="love-title">
+          <span>Я ТЕБЯ</span>
+          <em>люблю</em>
+        </h1>
+        <p class="small-note">и вот почему...</p>
+      </div>
+
+      <button class="scroll-hint" data-scroll="#reasons" aria-label="Продолжить">
+        <span>↓</span>
+      </button>
+    </section>
+
+    <section class="screen reasons" id="reasons">
+      <div class="section-inner">
+        <p class="section-kicker">5 месяцев</p>
+        <h2>5 причин,<br><em>почему я люблю тебя</em></h2>
+
+        <div class="reasons-list">
+          <article class="reason">
+            <span class="number">01</span>
+            <p>Ты каким-то подозрительно эффективным образом умеешь делать мой день лучше, просто появившись в нём.</p>
+          </article>
+
+          <article class="reason">
+            <span class="number">02</span>
+            <p>С тобой можно сначала смеяться с какой-нибудь абсолютной ерунды, а через пять минут обсуждать жизнь, вселенную и вообще всё на свете.</p>
+          </article>
+
+          <article class="reason">
+            <span class="number">03</span>
+            <p>С тобой мне легко быть собой, тебе легко доверять, и почему-то рядом с тобой совсем не страшно смотреть в будущее.</p>
+          </article>
+
+          <article class="reason">
+            <span class="number">04</span>
+            <p>Ты умудряешься занимать мои мысли в самые неподходящие моменты. Например, когда мне вообще-то надо учиться. Возмутительно.</p>
+          </article>
+
+          <article class="reason">
+            <span class="number">05</span>
+            <p>Пять месяцев спустя я всё ещё смотрю на тебя и думаю что-то вроде: «Ну надо же было мне так влюбиться».</p>
+          </article>
+        </div>
+
+        <button class="scroll-hint dark" data-scroll="#question" aria-label="Продолжить">
+          <span>↓</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="screen question" id="question">
+      <div class="question-card">
+        <p class="section-kicker">и раз уж ты дошёл сюда...</p>
+        <h2>у меня к тебе<br>один вопрос</h2>
+        <p class="question-text">Составишь мне компанию<br><strong>на одном маленьком мероприятии?</strong></p>
+
+        <div class="buttons">
+          <button class="answer yes" id="yesButton">конечно ♡</button>
+          <button class="answer no" id="noButton">а у меня есть выбор?</button>
+        </div>
+
+        <div class="final-message" id="finalMessage" aria-live="polite">
+          <p>спасибо!</p>
+          <span>♡</span>
+          <p>ожидайте подробности</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
